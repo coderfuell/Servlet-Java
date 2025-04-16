@@ -3,6 +3,7 @@
     <head><title>Search Result</title></head>
 <body>
 <% Employee emp = (Employee) request.getAttribute("employee");
+    out.println(emp);
         if (emp != null) {
 %>
             <h2>Employee Details</h2>
